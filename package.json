@@ -1,7 +1,7 @@
 {
   "name": "app-mix",
   "version": "0.1.0",
-  "description": "My laravel-mix starter. Just fork it to create your next awesome project.",
+  "description": "The application mix.",
   "author": "Thiago Senna",
   "license": "ISC",
   "main": "resources/assets/js/app.js",
