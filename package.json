@@ -1,0 +1,17 @@
+{
+  "name": "app-mix",
+  "version": "0.1.0",
+  "description": "My laravel-mix starter. Just fork it to create your next awesome project.",
+  "author": "Thiago Senna",
+  "license": "ISC",
+  "main": "resources/assets/js/app.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.7"
+  }
+}
